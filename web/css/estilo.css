@@ -6,17 +6,153 @@ section{
     min-height:440px;
 }
 
-footer{
-  position:fixed;   
-  border:1px solid blue;
-  min-height:90px;
-  min-width:1365px;
-}
 .page-header{
     margin:1px;
 }
 .titulo{
     text-align: center;
+}
+
+.clear { clear: both; }
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+#footer {
+    background: #1659bf;
+    color: #fff;
+}
+
+#footer a { color: #fff; }
+
+#footer p { clear: both; }
+
+    #footer > div { text-align: center; }
+
+    #footer img {
+        float: none;
+        margin: 1em;
+        max-width: 40%;
+    }
+
+
+#footer {
+    padding: 20px 0;
+    min-height: 50px;
+    width: 100%;
+}
+
+#footer > div {
+    margin: 2em auto;
+    padding-top: 1em;
+    max-width: 960px;
+}
+
+#footer .footer-logos {
+    margin: 0 0 -20px;
+    padding: 2em 0;
+    max-width: 100%;
+    background: #0042b1;
+}
+
+.footer-logos > div {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+#footer .logo-brasil img { float: right; }
+
+#extra-footer p {
+    margin: 1em auto;
+    max-width: 960px;
+}
+
+#voltar-topo {
+    margin-top: 44px;
+    text-align: right;
+}
+
+#voltar-topo a {
+    padding-left: 20px;
+    background: url("../imagens/voltar-topo.png") no-repeat left center;
+    color: #777;
+    font-size: 0.9em;
+}   
+    
+#wrapper #footer .footer-logos { background: #0042b1; }
+
+
+/* Doormat
+   ========================================================================== */
+
+#doormat-container { background: #1659bf; }
+
+#doormat-container dl { border-left: 1px dotted #fff; }
+
+#doormat-container dt { color: #fff; }
+/* Doormat
+   ========================================================================== */
+
+#doormat-container { background: #1659bf; }
+
+#doormat-container dl { border-left: 1px dotted #fff; }
+
+#doormat-container dt { color: #fff; }
+
+#doormat-container { float: none; }
+
+#doormat-container dl { margin: 0 0 20px 0; }
+
+#doormat-container .doormatColumn { text-align: left; }
+
+#doormat-container dt {
+    padding-left: .6em;
+    font-size: 2em;
+    font-family: "open_sansbold", Arial, Helvetica, sans-serif;
+}
+
+#doormat-container dd {
+    padding: .5em 1.2em 0 1.2em;
+    font-family: "open_sansregular", Arial, Helvetica, sans-serif;
+}
+
+#doormat-container dd a { font-size: 1.4em; }
+
+#doormat-container.columns-4 .doormatColumn { width: 22%; }
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Smartphone
+   ========================================================================== */
+
+@media only screen and (min-width : 320px) and (max-width : 768px) {
+
+    .menuTrigger {
+        background: #0e4097 url("../img/bg-menu-mobile.png") top right no-repeat;
+    }
+
+    .portlet-static-contents-central .portletHeader,
+    .portlet-static-resource-center .portletHeader,
+    .portlet-static-centrales-del-contenido .portletHeader,
+    .portlet-static-centrais-de-conteudos .portletHeader,
+    .portletNavigationTree .portletHeader {
+        background: #edeff1 url("../img/portlet-header.gif") no-repeat 96% center;
+    }
+
+    .portletNavigationTree .portletHeader.ativo {
+        background: url("../imagens/portlet-header-expanded.gif") no-repeat 96% center;
+    }
+
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  #header #portal-searchbox .searchButton {
+    background: url("../imagens/search-button-30px.png") no-repeat;
+  }
 }
 
 

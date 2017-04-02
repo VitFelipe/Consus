@@ -1,0 +1,48 @@
+/********************** BARRA GERAL */
+
+/**/
+
+
+body#principal a.aegypti {
+    display: none;
+}
+
+#barra-brasil-v3 {
+    position:relative;
+    clear:both;
+    overflow:hidden;
+    height:28px;
+    background:#004b82;
+    margin-bottom:20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#barra-brasil-v3 {
+    display:block;
+    /*height:28px;*/
+    background:url(../images/barra-brasil-v3-bgx.gif) 0 bottom repeat-x;
+    /*margin-right:21px;*/
+}
+#barra-brasil-v3 .imagemGov {
+    /*position:absolute;*/
+    top:4px;
+    margin-top:4px;
+    height: 24px;
+    right:15px;
+
+}
+#barra-brasil-v3 .brasilgov {
+    width: 305px;
+    height: 24px;
+    float:right;
+    display:block;
+    border: 0 !important;
+}
+
+
+#barra-brasil-v3 {
+    background:#004b82;
+}
+#barragov .imagemGov {
+    background: url(../images/barra-brasil-v3-azul.gif) right top no-repeat;
+}

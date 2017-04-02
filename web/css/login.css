@@ -1,0 +1,106 @@
+
+/* 
+    Created on : 02/04/2017, 10:15:59
+    Author     : flavi
+*/
+
+body {
+    width: 100%;
+    background-color: #e0ebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+ #logo {
+    width: 100px;
+    height: 60px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+                                                                                                                                                                    
+}
+
+header {
+    background-color: #0066cc;
+    border-bottom: 2px #003366 solid;
+    height: 80px;   
+}
+
+li {
+    display: inline;
+}
+form{
+
+    background-color: #b3d9ff;
+    float: left;
+    width: 50%; 
+    margin:auto;
+    max-width:350px;
+    border: 1px #0066cc solid;  
+    margin-top: 20px;
+    margin-left: 15%;
+    padding: 30px;
+}
+
+#for_hosp{
+    background-color: #b3d9ff;
+    float: right;
+    width: 50%; 
+    margin:auto;
+    max-width:350px;
+    border: 1px #0066cc solid;  
+    margin-top: 20px;
+    margin-right: 15%;
+    padding: 30px;
+
+}
+h2{
+    text-align: center;
+    color: #000000;
+
+}
+
+input {
+    display: block;
+    padding: 8px;  
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+input[type="submit"] {
+
+}
+
+nav {
+    position: relative;
+    left: 67%;
+    bottom: 30px;
+
+}
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color:#0066cc; 
+    color: #99ccff; 
+}
+
+nav ul li a:hover{
+   color: #0059b3;
+}
+
+.labels{
+    float: right;
+
+}
+label {
+    color: #000000;
+}
+#avatar{
+    position: relative;
+    left: 40%;
+}
