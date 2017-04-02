@@ -1,0 +1,18 @@
+SMAP
+CadastroMedico_jsp.java
+JSP
+*S JSP
+*F
++ 0 CadastroMedico.jsp
+paginas/CadastroMedico.jsp
++ 1 cabecalho.jsp
+paginas/../template/cabecalho.jsp
++ 2 rodape.jsp
+paginas/../template/rodape.jsp
+*L
+5,14:50
+1#1,71:64
+18#0,89:134
+1#2,5:223
+106#0,7:227
+*E

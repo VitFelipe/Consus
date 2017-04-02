@@ -1,0 +1,29 @@
+
+.navbar-default{
+    padding: 13px;
+}
+section{
+    min-height:440px;
+}
+
+footer{
+  position:fixed;   
+  border:1px solid blue;
+  min-height:90px;
+  min-width:1365px;
+}
+.page-header{
+    margin:1px;
+}
+.titulo{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
